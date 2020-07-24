@@ -9,9 +9,69 @@ h1, h3 {
 
 }
 
+
+.add-bagel {
+  margin: 3rem;
+}
+
+.add-bagel > input {
+  margin-right: 1rem;
+}
+
+.add-bagel > input[type=submit] {
+  background-color: hsl(120, 35%, 40%);
+  color: hsl(120, 95%, 95%);
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 0px 5px hsl(120, 35%, 10%);
+}
+
 ul {
+  padding: 0;
+  margin: 0; 
   text-align: left;
-  margin-left: 2rem;
+  width: 90%;
+  margin-left: 5%;
   list-style: none;
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-evenly;
+}
+
+.bagel-container > li {
+  background-color: hsl(120, 50%, 50%);
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  margin-right: 1rem; 
+}
+
+.bagel-container > li > h4 {
+  margin: 0; 
+  padding: 5px; 
+  text-align: left;
+}
+
+.bagel-container > li > h5 {
+  margin: 0;
+  padding: 5px; 
+  text-align: left;
+  padding-left: 15px;
+  height: 1em;
+}
+
+ul > li > .remove-bagel {
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  background-color: hsl(0, 75%, 40%);
+  border: none;
+  border-radius: 7.5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  color: hsl(120, 95%, 95%); 
 }
 

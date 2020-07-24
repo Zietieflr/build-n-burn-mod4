@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useBagelsAPI } from './hooks'
 import BagelContainer from './components/BagelContainer'
-import AddForm from './components/AddForm'
+import AddForm from './components/NewForm'
 import './App.css';
 
 function App() {  

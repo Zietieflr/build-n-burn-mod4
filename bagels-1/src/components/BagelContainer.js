@@ -7,7 +7,7 @@ export default function BagelContainer({ bagels, removeBagel }) {
   }
   
   return (
-    <ul>
+    <ul className='bagel-container'>
       {renderBagels(bagels)}
     </ul>
   )

@@ -8,6 +8,6 @@ export default function remove({ id, removeBagel }) {
   }
   
   return (
-    <button onClick={(event) => handleClick(event, id)}>ⓧ</button>
+    <button className='remove-bagel' onClick={(event) => handleClick(event, id)}>𝖷</button>
   )
 }

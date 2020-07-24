@@ -7,7 +7,8 @@ export default function AddForm({ addBagel }) {
   
   const handleSubmit = (event) => {
     event.preventDefault()
-    addBagel(form.type, form.rating)
+    const { type, rating } = form
+    if (type && rating) { addBagel(type, rating) }
     setForm(defaultState)
   }
 
