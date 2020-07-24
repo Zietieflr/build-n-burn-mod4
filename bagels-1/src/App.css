@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;500&display=swap');
 
 .App {
-  text-align: center;
   font-family: 'Epilogue', sans-serif;
+}
+
+h1, h3 {
+  text-align: center;
+
+}
+
+ul {
+  text-align: left;
+  margin-left: 2rem;
+  list-style: none;
 }
 
